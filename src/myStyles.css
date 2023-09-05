@@ -1,0 +1,354 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo {
+	font-size: 24px;
+	margin-left: 10px;
+	font-weight: 800;
+}
+.logo:hover {
+	scale: 1.1;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+
+
+.hero {
+	background-image: url('./img/hero.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.hero-content {
+	width: 50%;
+	margin-left: 100px;
+}
+
+.hero h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.btn {
+	background-color: orange;
+	color: orange;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+.categories {
+	padding: 50px;
+	background-color: #f7f7f7;
+	
+}
+
+.categories h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.category-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.category {
+	flex-basis: 30%;
+	text-align: center;
+
+}
+
+.category img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.category h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.featured-products {
+	padding: 50px;
+}
+
+.featured-products h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.product-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product {
+	flex-basis: 30%;
+	text-align: center;
+}
+
+.product img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.product h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.product p {
+	font-size: 18px;
+	color: #f44336;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo {
+	font-size: 24px;
+	color: orange;
+
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.products {
+	padding: 40px;
+}
+
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product {
+	width: 30%;
+	margin: 20px;
+	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.product img {
+	width: 100%;
+	height: auto;
+}
+
+.product h4 {
+	font-size: 18px;
+	margin: 10px;
+}
+
+.product p {
+	font-size: 16px;
+	margin: 10px;
+}
+
+.btn {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.btn:hover {
+	background-color: #555;
+	cursor: pointer;
+}
+
+
+
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo {
+	font-size: 24px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+.container h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.container p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+}
+
+footer li {
+	margin-left: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.prelinknav {
+	margin: 10px;
+	font-weight: bold;
+	font-size: large;
+	
+}
+.prelinknav:hover {
+	scale: 1.1;
+}
+
+.btn-logout {
+	background-color: orange; 
+	color: white; 
+	font-size: 18px;
+	padding: 12px 24px; 
+	border: none; 
+	cursor: pointer;
+	margin-top: 20px; 
+	margin-bottom: 40px; 
+	border-radius: 8px;
+  }
+  
+  .btn-logout:hover {
+	background-color: darkorange; 
+  }
+
+  .prelinknav2 {
+	margin: 10px;
+	font-weight: bold;
+	font-size: large;
+	
+}
+.prelinknav2:hover {
+	scale: 1.1;
+}
+
+.profile-jpg{
+	max-width: 35px;
+	max-height: 50px;
+	color: white;
+}
+
+
+.prelinknavML {
+	margin: 10px;
+	font-weight: bold;
+	font-size: large;
+	margin-left: 20px;
+	
+}
+.prelinknavML:hover {
+	scale: 1.1;
+}

@@ -1,0 +1,17 @@
+/* Success.css */
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success-message {
+    font-size: 48px;
+    color: orange; /* Or any color you prefer */
+    background-color: #f7f7f7; /* Or any background color you prefer */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

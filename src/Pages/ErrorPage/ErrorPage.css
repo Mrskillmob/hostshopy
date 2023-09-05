@@ -1,0 +1,39 @@
+/* ErrorPage.css */
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .error-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .error-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .error-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .error-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

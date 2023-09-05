@@ -1,0 +1,42 @@
+/* About.css */
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-content {
+  flex: 1; 
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-content p {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
+
+/* Add this new rule to push the footer to the bottom */
+.footer {
+  margin-top: auto;
+}

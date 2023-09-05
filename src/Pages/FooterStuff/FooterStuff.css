@@ -1,0 +1,61 @@
+/* FooterStuff.css */
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .pagefooter {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .content p {
+    font-size: 18px; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+.card {
+  max-width: 800px;
+  margin: 10px auto;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+  
